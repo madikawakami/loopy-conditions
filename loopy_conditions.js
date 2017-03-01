@@ -6,7 +6,16 @@
  * @param  { Number } b
  * @return { Number }
  */
+function greaterNumber(a,b){
+	if (a>b) {
+		return a;
+	}
+	if (a<b) {
+		return b;
+	}
+}
 
+greaterNumber(520, 20);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -17,7 +26,9 @@
  * @param  { Number } n
  * @return { String }
  */
-
+function stringOfNumbers(){
+	
+}
 
 /**
  * Create a function called 'sumOfArray'.
@@ -27,7 +38,9 @@
  * @param  { array } arr
  * @return { Number }
  */
+function sumOfArray(arr){
 
+}
 
 /**
  * Create a function called 'getEvens'.
@@ -36,6 +49,9 @@
  * @param  { array } arr
  * @return { array }
  */
+ function getEvens(arr){
+
+ }
 
 
 /**
@@ -45,7 +61,9 @@
  * @param  { array } arr
  * @return { array }
  */
+function getOdds(arr){
 
+}
 
 /**
  * Create a function called 'calculate'.
@@ -61,3 +79,6 @@
  * @param  { String } operator ('add', subtract, 'multiply', 'divide')
  * @return { Number/String }
  */
+function calculate(int1, int2, add){
+
+}
